@@ -1,0 +1,155 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/*body{
+    overflow: hidden;
+}*/
+.nav,
+a {
+  padding: 15px;
+  background-color: #00baff;
+  width: 100%;
+  height: 35px;
+  text-decoration: none;
+
+  font-family: Comic Sans MS;
+  font-weight: bold;
+}
+
+.iteam {
+  margin-left: 30px;
+  /* font-size: 24px;*/
+  text-decoration: none;
+  color: black;
+}
+.active {
+  color: white;
+}
+
+.img {
+  background-position: top right;
+  height: 500px;
+  width: 300px;
+}
+#i {
+  height: 30px;
+  width: 30px;
+  margin-left: 420px;
+}
+
+.test1 {
+  border-radius: 5px;
+}
+.test2 {
+  border-radius: 5px;
+  width: 164px;
+}
+.test3 {
+  border-radius: 5px;
+  width: 168px;
+}
+.test4 {
+  border-radius: 5px;
+  width: 165px;
+}
+.input {
+  padding-left: 90px;
+  font-family: tahoma;
+}
+.test5 {
+  border-radius: 5px;
+  width: 184px;
+  height: 78px;
+}
+
+.test6 {
+  border-radius: 5px;
+  padding: 0px 70px 0px 70px;
+  background: #198754;
+  height: 22px;
+  color: white;
+  width: 179px;
+}
+.test7 {
+  border-radius: 5px;
+  padding: 0px 70px 0px 70px;
+  background-color: #dc3545;
+  color: white;
+  height: 22px;
+}
+.one {
+  border-radius: 5px;
+  width: 169px;
+}
+.two {
+  border-radius: 5px;
+  width: 170px;
+}
+.three {
+  border-radius: 5px;
+  padding: 0px 70px 0px 70px;
+  background-color: #198754;
+  color: white;
+  width: 179px;
+  height: 22px;
+}
+.for {
+  border-radius: 5px;
+  padding: 0px 70px 0px 70px;
+  background-color: #dc3545;
+  color: white;
+  height: 22px;
+}
+sub {
+  font-size: 9px;
+}
+@font-face {
+  src: url(../font/Arial_Rounded_MT.ttf);
+  font-family: Arial_Rounded_MT;
+}
+.output2 {
+  margin-top: 22px;
+  font-family: Arial_Rounded_MT;
+}
+.output3 {
+  margin-top: 22px;
+  font-family: Tahoma, sans-serif;
+  font-size: 5px;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.output2 {
+  font-size: 12px;
+  font-family: Arial_Rounded_MT;
+}
+
+.output1 {
+  padding-top: 25px;
+  font-family: Arial_Rounded_MT;
+}
+.image_1 {
+  padding-right: 100px;
+
+  margin-bottom: 30px;
+}
+.img_2 {
+  padding-right: 100px;
+  margin-top: 27px;
+}
+.test10 {
+  border-radius: 5px;
+  width: 170px;
+}
+.all {
+  margin-left: 30px;
+  padding: 10px;
+}
+.pp {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+.a {
+  margin-top: 20px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css" />
+    <style>
+      lable {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <span id="d">
+        <a href="../index.html" class="iteam">Personal Information</a>
+        <a href="wb1.html" class="iteam">Course Information</a>
+        <a href="experiences.html" class="iteam">Experiences Information</a>
+        <a href="addcourse.html" class="iteam">Add Course</a>
+        <a href="addexprience.html" class="iteam active"> Add experience</a>
+      </span>
+      <img src="../img/logo.png" alt="" id="i" />
+    </div>
+    <div class="">
+      <table class="table1">
+        <tr>
+          <td width="80%">
+            <form action="" methode="post" tabindex="_blank">
+              <div class="input" style="padding-left: 90px">
+                <label>Experiance Category:</label>
+                <span style="padding-left: 12px"
+                  ><input class="test1" list="exper"
+                /></span>
+                <datalist id="exper">
+                  <option value="php"></option>
+                  <option value="css"></option>
+                  <option value="java"></option>
+                </datalist>
+              </div>
+              <br /><br />
+
+              <div class="input">
+                <label>Experiense Title:</label>
+                <span style="padding-left: 42px"
+                  ><input type="text" class="test1"
+                /></span>
+              </div>
+              <br /><br />
+
+              <div class="input">
+                <label>Start month:</label>
+                <span style="padding-left: 68px"
+                  ><input type="month" class="one"
+                /></span>
+              </div>
+              <br /><br />
+
+              <div class="input">
+                <label>End month:</label>
+                <span style="padding-left: 73px"
+                  ><input type="month" class="two"
+                /></span>
+              </div>
+              <br /><br />
+              <div class="input">
+                <label>Institution:</label>
+                <span style="padding-left: 76px"
+                  ><input type="text" class="test10"
+                /></span>
+              </div>
+              <br /><br />
+
+              <div class="input">
+                <label style="vertical-align: top">Description:</label>
+                <span style="padding-left: 65px">
+                  <textarea cols="45" rows="7" class="test1"></textarea>
+                </span>
+              </div>
+              <br /><br />
+              <div class="input">
+                <span style="padding-left: 40px"
+                  ><input type="submit" value="Save"class="three" target=
+                  ></span
+                >
+
+                <span style="padding-left: 40px">
+                  <input class="for" type="reset" value="Reset"
+                /></span>
+              </div>
+            </form>
+          </td>
+          <td>
+            <image
+              src="../img/experience.jpg"
+              ait=""
+              width="400px"
+              height="490px"
+              class="img_2"
+            ></image>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
